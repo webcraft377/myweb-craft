@@ -1,0 +1,7 @@
+/* Basic CSS for Next.js starter */
+.container{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem}
+.main{padding:5rem 0;display:flex;flex-direction:column;align-items:center}
+.title{font-size:2.5rem;margin:0}
+.description{color:#6b7280;margin:1rem 0}
+.grid{display:flex;gap:1rem}
+.card{padding:1rem;border-radius:8px;background:#fff;box-shadow:0 6px 18px rgba(2,6,23,.04);text-decoration:none;color:inherit}
