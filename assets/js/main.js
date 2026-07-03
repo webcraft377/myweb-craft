@@ -1,4 +1,4 @@
-// Minimal JS for navigation toggle and simple interactions
+// keep existing interactions; no change required but ensure accessibility improvements
 document.addEventListener('DOMContentLoaded', function(){
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.nav');
