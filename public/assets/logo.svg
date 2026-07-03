@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48">
+  <rect width="240" height="48" rx="8" fill="#0b5ed7"></rect>
+  <g font-family="Inter, Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#fff">
+    <text x="56" y="31">WebCraft</text>
+  </g>
+  <g transform="translate(16,12)">
+    <circle cx="12" cy="12" r="10" fill="#06b6d4"/>
+    <rect x="26" y="8" width="10" height="8" rx="2" fill="#fff" opacity="0.12"/>
+  </g>
+</svg>

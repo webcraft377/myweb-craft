@@ -1,0 +1,28 @@
+/* Global styles for Next.js site (based on styles used in static site) */
+:root{--brand:#0b5ed7;--accent:#06b6d4;--muted:#6b7280;--bg:#f8fafc;--card:#fff;--max-width:1100px;--radius:10px}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;line-height:1.6;margin:0;color:#0f172a;background:var(--bg)}
+.container{max-width:var(--max-width);margin:0 auto;padding:2rem}
+.header-inner{display:flex;align-items:center;gap:1rem}
+.brand{display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.logo{height:38px}
+.nav{display:flex;gap:1rem;margin-left:2rem}
+.nav a{color:#0f172a;text-decoration:none;padding:.35rem .5rem;border-radius:6px}
+.actions{margin-left:auto;display:flex;gap:.5rem}
+.btn{padding:.6rem 1rem;border-radius:8px;text-decoration:none;display:inline-block;font-weight:600}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-outline{border:1px solid rgba(15,23,42,.06);color:var(--brand);background:#fff}
+.nav-toggle{display:none;background:transparent;border:0;font-size:1.2rem}
+.hero{background:linear-gradient(180deg,#fff 0%,#f8fafc 100%);padding:3rem 0}
+.hero-inner{display:flex;gap:2rem;align-items:center}
+.hero img{max-width:520px;width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,.06)}
+.section{padding:3rem 0}
+.grid{display:grid;gap:1rem}
+.services-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);padding:1.25rem;border-radius:var(--radius);box-shadow:0 6px 18px rgba(2,6,23,.04)}
+.portfolio-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.portfolio-item img{width:100%;height:180px;object-fit:cover;border-radius:8px;background:#eef2ff}
+.footer-inner{padding:2rem 0;text-align:center;color:var(--muted)}
+.contact-form{display:grid;gap:.75rem;max-width:640px}
+.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{width:100%;padding:.65rem;border-radius:8px;border:1px solid rgba(15,23,42,.06)}
+@media(max-width:900px){.hero-inner{flex-direction:column}.nav{display:none}.nav-toggle{display:block;margin-left:auto}}

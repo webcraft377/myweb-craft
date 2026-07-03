@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <rect width="100%" height="100%" fill="#fff7ed" rx="12"/>
+  <g fill="#f59e0b" font-family="Inter, Arial, Helvetica, sans-serif" font-size="36" font-weight="700">
+    <text x="40" y="120">Sepulang</text>
+  </g>
+  <text x="40" y="180" fill="#374151" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16">Screenshot — Landing Page</text>
+  <rect x="40" y="220" width="720" height="200" rx="8" fill="#fff" stroke="#fff3e0"/>
+  <g transform="translate(56,246)" fill="#fcd34d">
+    <rect width="180" height="96" rx="6"/>
+    <rect x="204" width="420" height="16" rx="6"/>
+    <rect x="204" y="28" width="320" height="12" rx="6"/>
+    <rect x="204" y="52" width="220" height="10" rx="6"/>
+  </g>
+</svg>
